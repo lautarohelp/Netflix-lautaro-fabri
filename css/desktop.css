@@ -1,12 +1,23 @@
-html{
+header img{
+    width: 200px;
+    height: 100px;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/AR-es-20230807-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/AR-es-20230807-popsignuptwoweeks-perspective_alpha_website_small.jpg);
-    
+}
+main{
+    width: 460px;
+    height:660px;
+    border-radius: 5px;
+    margin-bottom: 90px;
+    background-color: rgba(0,0,0,.75);
+    padding: 60px 68px 40px ;
 }
 footer{
-    background-color: rgba(0,0,0,.75);;
+    background-color: rgba(0,0,0,.75);
+    border-top: none;
 }
 footer ul {
     display: grid;
