@@ -1,0 +1,14 @@
+html{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../img/AR-es-20230807-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    
+}
+footer{
+    background-color: rgba(0,0,0,.75);;
+}
+footer ul {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
