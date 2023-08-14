@@ -72,8 +72,18 @@ input{
     width: 250px;
     height: 100%;
 }
-
-input:focus + .class__label .span__lbl, input:invalid + .class__label .span__lbl{
+.span__lbl__two{
+    position: absolute;
+    top: 19px;
+    transition: all 0.3s ease;
+    width: 250px;
+    height: 100%;
+}
+input:valid + .class__label .span__lbl,input:focus + .class__label .span__lbl{
+    transform: translateY(-10px);
+    font-size: 1.3rem;
+}
+input:valid + .class__label .span__lbl__two,input:focus + .class__label .span__lbl__two{
     transform: translateY(-10px);
     font-size: 1.3rem;
 }
@@ -102,6 +112,10 @@ input:focus + .class__label .span__lbl, input:invalid + .class__label .span__lbl
     text-decoration: none;
     color: #b3b3b3;
 }
+.option__login a:hover{
+    text-decoration: underline;
+    
+}
 .option__login p{
     color: #b3b3b3;
 }
@@ -125,6 +139,9 @@ input:focus + .class__label .span__lbl, input:invalid + .class__label .span__lbl
     text-decoration: none;
     color: white;
 }
+.first__p a:hover{
+    text-decoration: 2px underline;
+}
 .second__p{
     font-size: 1.3rem;
     margin-top: 16px;
@@ -134,6 +151,9 @@ input:focus + .class__label .span__lbl, input:invalid + .class__label .span__lbl
 .second__p a{
     text-decoration: none;
     color: #0071eb;
+}
+.second__p a:hover{
+    text-decoration: underline;
 }
 /* footer */
 footer {
