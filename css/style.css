@@ -194,6 +194,9 @@ footer ul li a {
     text-decoration: none;
     color: #737373;
 }
+footer ul li a:hover{
+    text-decoration: underline;
+}
 footer div {
     border: 0.1px solid #737373;
     width: 120px;
