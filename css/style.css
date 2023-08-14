@@ -56,6 +56,12 @@ input{
     color: white;
     border-radius: 5px;
 }
+input:invalid{
+    border-bottom: 2px solid #e87c07;
+}
+input:invalid:focus{
+    border-bottom: 2px solid #e87c07;
+}
 .class__label{
     display: flex; 
     font-family: arial,sans-serif;
