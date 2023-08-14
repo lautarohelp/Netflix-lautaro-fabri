@@ -129,8 +129,6 @@ input:valid + .class__label .span__lbl__two,input:focus + .class__label .span__l
     margin: 0 2px;
     width: 16px;
     height: 16px;
-    background-color: #b3b3b3;
-    font-family: arial,sans-serif;
 }
 .checkbox{
     display: flex;
